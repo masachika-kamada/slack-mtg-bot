@@ -1,1 +1,11 @@
-# slack-mtg-bot
+# Slack MTG Bot
+
+## 機能
+
+* MTG が始まる 4 時間前に出欠確認
+* MTG が始まる 2 分前に参加のためのリンクをアナウンス
+
+## 参考にしたサイト
+
+* [Slack ボットの作成手順](https://qiita.com/odm_knpr0122/items/04c342ec8d9fe85e0fe9)
+* [【30分で完成】オウム返しBotから始めるSlackアプリの作り方](https://www.pci-sol.com/business/service/product/blog/lets-make-slack-app/)

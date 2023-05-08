@@ -1,0 +1,24 @@
+{
+    "name": "@slack/slack-bolt-sdk-example",
+    "version": "1.1.0",
+    "private": true,
+    "description": "A basic example of using the Slack Bolt ⚡️ SDK",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "engines": {
+      "node": "14.x"
+    },
+    "author": "Slack Technologies, LLC",
+    "license": "MIT",
+    "dependencies": {
+      "@slack/bolt": "^3.9.0",
+      "chrono-node": "^2.6.3",
+      "moment": "^2.29.4",
+      "moment-timezone": "^0.5.43",
+      "node-schedule": "^2.1.1"
+    }
+  }
+  
