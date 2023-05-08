@@ -5,6 +5,10 @@
 * MTG が始まる 4 時間前に出欠確認
 * MTG が始まる 2 分前に参加のためのリンクをアナウンス
 
+## 動作イメージ
+
+![image](https://user-images.githubusercontent.com/63488322/236871527-ff883e20-6afa-49a4-baa4-5647d5507efc.png)
+
 ## 参考にしたサイト
 
 * [Slack ボットの作成手順](https://qiita.com/odm_knpr0122/items/04c342ec8d9fe85e0fe9)
