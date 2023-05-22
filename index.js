@@ -49,12 +49,7 @@ app.message(async ({ message, say }) => {
     schedule.scheduleJob(meetingStartTime, async () => {
       console.log(`MTG情報リマインダー実行時刻: ${new Date()}`);
       const meetingStartMessage = `
-      <!channel>
-      MTGを開始します。
-      ・Zoomリンク：${process.env.ZOOM_LINK}
-      ・Googleドライブ：${process.env.GOOGLE_DRIVE_LINK}
-      ・スプレッドシート：${process.env.SPREADSHEET_LINK}
-      `;
+      <!channel>\nMTGを開始します。\n・Zoomリンク：${process.env.ZOOM_LINK}\n・Googleドライブ：${process.env.GOOGLE_DRIVE_LINK}\n・スプレッドシート：${process.env.SPREADSHEET_LINK}`;
       await app.client.chat.postMessage({
         token: process.env.SLACK_BOT_TOKEN,
         channel: meetingChannel,
